@@ -202,9 +202,9 @@ body {
 
 .hero-badge { 
   position: absolute;
-  top: 24px;
-  right: -60px;
-  background: #fff;
+  top: -55px;
+  right: 350px;
+  background: rgba(0,120,212,0.10, green, blue, alpha);
   border-radius: 50%;
   width: 120px;
   height: 120px;
