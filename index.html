@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
+  <title>Nizomjon Qarshiyev | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <nav class="navbar">
     <div class="navbar-left">
-      <img src="images/logo.jpg" alt="Logo" class="logo" />
-      <span class="site-name">Your Name</span>
+      <img src="images/profile.svg" alt="Logo" class="logo" />
+      <span class="site-name">Nizomjon Qarshiyev</span>
     </div>
     <ul class="navbar-center">
       <li><a href="#" class="active">Home</a></li>
@@ -19,14 +19,14 @@
       <li><a href="#about">About</a></li>
     </ul>
     <div class="navbar-right">
-      <button class="contact-btn">Contact</button>
+      <button class="contact-btn"><a href="#contact">Contact Me</a></button>
     </div>
   </nav>
   <main class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">Hi, I'm Your Name</h1>
+      <h1 class="hero-title">Hi, I'm Nizomjon Qarshiyev</h1>
       <p class="hero-subtitle">
-        A passionate <span style="color:#0078d4;">Web Developer</span> crafting beautiful and functional websites.
+        Python Backend Developer specializing in building robust, scalable web applications and APIs.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="action-btn">View Projects</a>
@@ -34,11 +34,11 @@
       </div>
       <div class="stats">
         <div class="stat">
-          <span class="stat-number">5+</span>
+          <span class="stat-number">1+</span>
           <span class="stat-label">Years<br>Experience</span>
         </div>
         <div class="stat"></div>
-          <span class="stat-number">20+</span>
+          <span class="stat-number">10+</span>
           <span class="stat-label">Completed<br>Projects</span>
         </div>
         <div class="stat"></div>
@@ -48,15 +48,168 @@
       </div>
     </div>
     <div class="hero-image-container">
-      <img src="images/profile.jpg" alt="Your Photo" class="hero-image" />
+      <img src="images/profile.webp" alt="profile" class="hero-image" />
       <div class="hero-badge">
         <span class="badge-text">
-          Let's build something great!
+          Python Backend Developer
         </span>
         <span class="badge-arrow">&#8599;</span>
       </div>
     </div>
   </main>
-  <!-- Add your Projects, Skills, About, and Contact sections below -->
-</body>
-</html>
+
+  <!-- About Me Section -->
+  <section id="about" class="section about-section">
+    <h2>About Me</h2>
+    <p>
+      I'm Nizomjon Qarshiyev, a passionate Python Backend Developer with a focus on building robust and scalable web applications and APIs. I love solving complex problems and learning new technologies.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <h2>Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Short description of your project, what technologies you used, and what you accomplished.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Short description of your project, what technologies you used, and what you accomplished.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <h2>Soft Skills</h2>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>Django / FastAPI</li>
+      <li>REST APIs</li>
+      <li>TelegramBot</li>
+      <li>PostgreSQL</li>
+      <li>Docker</li>
+      <li>Git & GitHub</li>
+      <li>Linux</li>
+      <li>MySQL</li>
+      <li>Redis</li>
+      <li>Celery</li>
+      <li>Unit Testing</li>
+      <li>CI/CD</li>
+      <li>GraphQL</li>
+      <li>Web Scraping</li>
+      <li>Data Analysis</li>
+      <li>Machine Learning</li>
+      <li>API Development</li>
+      <!-- Add more skills as needed -->
+    </ul>
+    <h2>Hard Skills</h2>
+    <ul class="skills-list">
+      <li>Problem Solving</li>
+      <li>Team Collaboration</li>
+      <li>Time Management</li>
+      <li>Adaptability</li>
+      <li>Communication</li>
+      <li>Critical Thinking</li>
+      <li>Attention to Detail</li>
+      <li>Creativity</li>
+      <!-- Add more soft skills as needed -->
+    </ul>
+    <h2>Languages</h2>
+    <ul class="skills-list">
+      <li>Uzbek (Native)</li>
+      <li>Russian (Intermediate)</li>
+      <li>English (Fluent)</li>
+      <!-- Add more languages as needed -->
+  </section>
+
+  <!-- Resume/CV Section -->
+  <section id="resume" class="section resume-section">
+    <h2>Resume / CV</h2>
+    <a href="files/Nizomjon_Qarshiyev_CV.pdf" class="resume-btn" download>Download My CV</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact</h2>
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xvgqnrlk" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="form-success" style="display:none; color:#2196f3; font-size:1.3rem; margin-top:18px;">
+      Thank you! Your message has been sent.
+    </div>
+    <div class="social-links">
+      <a href="https://github.com/nizomiddinqarshiyev" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/nizomiddin-qarshiyev-717347292/" target="_blank">LinkedIn</a>
+      <a href="mailto:qarshiyevnizomiddin75@gmail.com">Email</a>
+      <a href="https://t.me/fullstackdeev">Telegram</a>
+      <!-- Add more social links as needed -->
+    </div>
+  </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="images/profile.svg" alt="Logo" class="footer-logo" />
+          <span class="footer-site-name">Nizomjon Qarshiyev</span>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/nizomiddinqarshiyev" target="_blank" title="GitHub">
+            <img src="images/github.svg" alt="GitHub" />
+          </a>
+          <a href="https://linkedin.com/in/nizomiddin-qarshiyev-717347292" target="_blank" title="LinkedIn">
+            <img src="images/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="mailto:qarshiyevnizomiddin75@gmail.com" title="Email">
+            <img src="images/email.svg" alt="Email" />
+          </a>
+          <a href="https://t.me/fullstackdeev" title="Telegram">
+            <img src="images/telegram.svg" alt="Telegram">
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Nizomjon Qarshiyev. All rights reserved.</span>
+        <span class="footer-motto">"Building impactful solutions, one line at a time."</span>
+      </div>
+    </footer>
+    <script>
+      // Auto-update year in footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const form = e.target;
+        const data = new FormData(form);
+        const action = form.action;
+        const response = await fetch(action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          form.style.display = 'none';
+          document.getElementById('form-success').style.display = 'block';
+        } else {
+          alert('There was a problem sending your message. Please try again.');
+        }
+      });
+    </script>
+  </body>
+  </html>
